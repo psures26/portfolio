@@ -193,7 +193,7 @@ export default function App() {
         <section
           id="home"
           className="relative min-h-screen grid place-items-center overflow-hidden"
-          style={{ backgroundImage: 'url(/pot.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+          style={{ backgroundImage: 'url(./pot.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           {/* Animated SVG hexagon overlay */}
           <svg className="absolute inset-0 w-full h-full pointer-events-none animate-hex-lines" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg" style={{zIndex:0}}>
@@ -352,31 +352,31 @@ export default function App() {
     <div className="grid md:grid-cols-2 gap-8 mt-8">
       {[
         {
-          img: "/project_image_1.png",
+          img: "./project_image_1.png",
           title: "AI-Powered Code Review Assistant",
           stack: "AWS Bedrock · LangChain · CrewAI · Pinecone · FastAPI · GitHub Actions",
           desc: "Developed an intelligent code-review assistant to address inefficiencies in manual pull-request validation. Leveraged large-language-model reasoning through AWS Bedrock and LangChain to detect logic flaws, performance bottlenecks, and security vulnerabilities in real time. Designed vector retrieval with Pinecone to reference historical code reviews and ensure contextual accuracy. Integrated seamlessly with GitHub Actions and Jenkins CI/CD pipelines, reducing review turnaround time by 50% and improving code quality consistency across teams.",
         },
         {
-          img: "/project_image_2.png",
+          img: "./project_image_2.png",
           title: "Image Recognition Platform",
           stack: "AWS EC2 · S3 · Lambda · DynamoDB · Flask · Docker",
           desc: "Engineered a scalable image-recognition service to automate visual data processing for enterprises handling millions of assets daily. Implemented an event-driven AWS architecture—S3 triggers invoking Lambda functions for AI inference, results stored in DynamoDB, and an auto-scaling Flask API layer for real-time retrieval. Deployed via Docker for portability and rapid scaling under high traffic. The solution achieved 99.3% inference uptime and processed 10K+ images monthly while maintaining cost efficiency through serverless design.",
         },
         {
-          img: "/project_image_3.png",
+          img: "./project_image_3.png",
           title: "Book Recommendation System",
           stack: "Python · NumPy · Pandas · SciPy · Collaborative Filtering · CSV",
           desc: "Built a large-scale recommendation engine to solve the challenge of personalization in digital reading platforms. Trained on 10K+ ratings across 5K books, the system applies collaborative filtering with cosine-similarity mapping to uncover latent user-preference patterns. Optimized sparse-matrix computations for rapid top-N generation and batch predictions. Produced data-driven insights that enhance engagement and retention by tailoring reading experiences at scale.",
         },
         {
-          img: "/project_image_4.png",
+          img: "./project_image_4.png",
           title: "Supermarket Sales Visualization Dashboard",
           stack: "Tableau · Python (ETL) · Excel",
           desc: "Designed an end-to-end retail analytics dashboard empowering decision-makers to identify revenue trends and optimize branch performance. Ingested and transformed 100 K+ transaction records via Python pipelines, modeled them into KPI scorecards in Tableau, and visualized sales growth, product-line profitability, and customer sentiment. Enabled business teams to reduce reporting cycles from days to minutes while uncovering actionable insights that boosted profit margins by 12% per branch.",
         },
         {
-          img: "/project_image_5.png",
+          img: "./project_image_5.png",
           title: "Intelligent IT Help Desk Ticket Tracking System",
           stack: "SQL Server · ER Modeling · Stored Procedures · Triggers · Power BI",
           desc: "Developed a data-driven IT ticketing platform addressing slow incident resolution and lack of transparency in enterprise support operations. Modeled 10+ relational entities linking tickets, departments, and SLA metrics with cascading triggers for automated assignment and escalation. Embedded analytics via Power BI to monitor workload, agent performance, and SLA breaches in real time. The system reduced average resolution time by 65% and established a foundation for predictive, AI-assisted ticket routing.",
