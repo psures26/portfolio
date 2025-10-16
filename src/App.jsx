@@ -335,7 +335,7 @@ export default function App() {
 
             <div className="mt-12 flex justify-center">
               <a
-                href="/PrarthanaSureshKumar_Resume.pdf"
+                href="./PrarthanaSureshKumar_Resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-white bg-emerald-600 hover:bg-emerald-700 shadow-md transition-transform hover:-translate-y-0.5"
               >
