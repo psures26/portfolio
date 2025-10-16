@@ -168,7 +168,7 @@ export default function App() {
             { label: "Home", icon: <Home className="inline w-4 h-4 mr-2" /> },
             { label: "About", icon: <User className="inline w-4 h-4 mr-2" /> },
             { label: "Skills", icon: <CodeIcon className="inline w-4 h-4 mr-2" /> },
-            { label: "Resume", icon: <FileText className="inline w-4 h-4 mr-2" /> },
+            { label: "Experience", icon: <FileText className="inline w-4 h-4 mr-2" /> },
             { label: "Projects", icon: <Folder className="inline w-4 h-4 mr-2" /> },
             { label: "Contact", icon: <Mail className="inline w-4 h-4 mr-2" /> },
           ].map(({ label, icon }) => (
