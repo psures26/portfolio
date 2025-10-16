@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://psures26.github.io/prarthanasureshkumar.github.io/",
+  "homepage": "https://prarthasureshkumar.github.io/",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
